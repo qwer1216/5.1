@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			.vistor{
+				width:95px;
+				height:110px;
+				background-color:royalblue;
+				transition:width 1s;
+			}
+			.student{
+				width:95px;
+				height:110px;
+				background-color:red;
+				transition:width 1s;
+			}
+				img{
+							width: 95px;
+							height: 110px}
+			.hejialin1{
+				color: white;
+				display: none;
+				line-height: 110px;
+				margin-left: 20px;
+				position:absolute;
+				  font-size: 50px;
+			}
+			.hejialin2{
+				display: inline-block;
+				line-height: 30px;	
+			}
+			div:hover{
+				width: 500px;
+			}
+			div:hover .hejialin1{
+				display: inline-block;
+			}
+			div:hover .hejialin2{
+				float: right;
+				line-height: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="vistor">
+			<span class="hejialin1">访客 visitor</span>
+			<span class="hejialin2">  <img src="1.jpg"></span>
+		</div>
+		<div class="student">
+			<span class="hejialin1">学生 student</span>
+			<span class="hejialin2"> <img src="2.jpg"> </span>	
+		</div>
+	</body>
+</html>
